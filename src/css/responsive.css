@@ -1,0 +1,66 @@
+@media (max-width: 1128px){
+    body main {
+        justify-content: start;
+        width: 375px;
+        background: url(../images/bg-pattern-top-mobile.svg) no-repeat top left, url(../images/bg-pattern-bottom-mobile.svg) no-repeat bottom right;
+    }
+    body main .container {
+        margin-top: 80px;
+        width: 100%;
+        gap: 50px;
+    }
+    body main .container .main-section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    body main .container .main-section .section-user-love {
+        text-align: center;
+        align-items: center;
+        gap: 22px;
+    }
+    body main .container .main-section .section-user-love h1 {
+        width: 90%;
+        font-size: 40px;
+        line-height: 32px;
+    }
+    body main .container .main-section .section-user-love p {
+        width: 90%;
+    }
+    body main .container .main-section .section-rated {
+        width: 100%;
+        gap: 18px;
+    }
+    body main .container .main-section .section-rated .div-rated {
+        flex-direction: column;
+        justify-content: center;
+        width: 327px;
+        height: 76px;
+        gap: 15px;
+        padding-left: 0;
+    }
+    body main .container .main-section .section-rated .div-rated.reviews {
+        align-self: center;
+    }
+    body main .container .main-section .section-rated .div-rated.guru {
+        align-self: center;
+    }
+    body main .container .main-section .section-rated .div-rated.bestTech {
+        align-self: center;
+    }
+    body main .container .section-perfils {
+        flex-direction: column;
+        height: 100%;
+        gap: 15px;
+    }
+    body main .container .section-perfils .perfil {
+        width: 327px;
+        height: 249px;
+    }
+    body main .container .section-perfils .perfil.perfil-colton {
+        align-self: center;
+    }
+    body main .container .section-perfils .perfil.perfil-wallace {
+        align-self: center;
+    }
+}

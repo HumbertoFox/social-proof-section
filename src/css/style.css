@@ -1,0 +1,149 @@
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+}
+body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 100vh;
+    background: url(../images/bg-pattern-top-desktop.svg) no-repeat top left, url(../images/bg-pattern-bottom-desktop.svg) no-repeat bottom right;
+}
+body main .container {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    gap: 75px;
+
+}
+body main .container .main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--Very-Dark-Magenta);
+}
+body main .container .main-section .section-user-love {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+body main .container .main-section .section-user-love h1 {
+    width: 400px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 47px;
+}
+body main .container .main-section .section-user-love p {
+    width: 460px;
+    font-size: 18px;
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: .0px;
+}
+body main .container .main-section .section-rated {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    gap: 15px;
+}
+body main .container .main-section .section-rated .div-rated {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 96px);
+    height: 56px;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    gap: 32px;
+    padding-left: 30px;
+}
+body main .container .main-section .section-rated .div-rated.guru {
+    align-self: center;
+}
+body main .container .main-section .section-rated .div-rated.bestTech {
+    align-self: self-end;
+}
+body main .container .main-section .section-rated .div-rated .div-star {
+    display: flex;
+    gap: 8px;
+}
+body main .container .section-perfils {
+    display: flex;
+    height: 264px;
+    gap: 30px;
+}
+body main .container .section-perfils .perfil {
+    display: flex;
+    width: 350px;
+    height: 234px;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 8px;
+}
+body main .container .section-perfils .perfil.perfil-colton {
+    align-self: flex-start;
+}
+body main .container .section-perfils .perfil.perfil-verified {
+    align-self: center;
+}
+body main .container .section-perfils .perfil.perfil-wallace {
+    align-self: flex-end;
+}
+body main .container .section-perfils .perfil .div-perfil {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 32px;
+    gap: 28px;
+}
+body main .container .section-perfils .perfil .div-perfil .img-perfil {
+    display: flex;
+    align-items: center;
+}
+body main .container .section-perfils .perfil .div-perfil .p-perfil {
+    display: flex;
+    font-size: 16px;
+    color: var(--White);
+    letter-spacing: .3px;
+    line-height: 22px;
+}
+body main .container .section-perfils .perfil .div-perfil .img-perfil img {
+    width: 40px;
+    border-radius: 50%;
+}
+body main .container .section-perfils .perfil .div-perfil .img-perfil .div-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+    gap: 6px;
+}
+body main .container .section-perfils .perfil .div-perfil .img-perfil .div-name strong {
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: var(--White);
+}
+body main .container .section-perfils .perfil .div-perfil .img-perfil .div-name span {
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: var(--Soft-Pink);
+}
+body main .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+body main .attribution a {
+    color: hsl(228, 45%, 44%);
+}
